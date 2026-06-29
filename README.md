@@ -1,7 +1,29 @@
-# 엔지니어 학습 코치 Agent
+# 🎓 엔지니어 학습 코치 AI Agent
 
-알고리즘 문제 풀이, CS 개념 설명, 코드 리뷰를 도와주는 학습 코치 AI Agent입니다.
-순수 프론트엔드(HTML/CSS/JS) 정적 사이트로, 사용자가 입력한 API 키로 브라우저에서 직접 Claude/OpenAI API를 호출합니다. API 키는 브라우저 `localStorage`에만 저장되며 어떤 서버에도 전송되지 않습니다.
+알고리즘 문제 풀이, CS 개념 설명, 코드 리뷰를 도와주는 학습 코치 AI Agent입니다.  
+순수 프론트엔드(HTML/CSS/JS) 정적 사이트로, 사용자가 입력한 API 키로 브라우저에서 직접 Claude/OpenAI API를 호출합니다.  
+API 키는 브라우저 `localStorage`에만 저장되며 어떤 서버에도 전송되지 않습니다.
+
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/db9674f4-006c-4f53-aff7-f516ae36c202" alt="메인 화면" width="100%"/>
+    </td>
+    <td align="center" width="50%">
+      <img src="https://github.com/user-attachments/assets/d4c9c990-840d-4cdc-ba25-9b628151ff25" alt="코드 리뷰 화면" width="100%"/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+      <!-- 첫 번째 사진 설명을 여기에 작성하세요 -->
+      <b>메인 화면</b><br/>모드 선택 및 API 키 설정
+    </td>
+    <td align="center">
+      <!-- 두 번째 사진 설명을 여기에 작성하세요 -->
+      <b>코드 리뷰 화면</b><br/>코드 입력 및 AI 피드백 출력
+    </td>
+  </tr>
+</table>
 
 ## 기능
 - 🧩 알고리즘 문제 풀이: 힌트 강도(살짝 힌트 / 방향 제시 / 정답까지) 조절 가능, 소크라테스식 질문으로 사고 유도
