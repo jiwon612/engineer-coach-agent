@@ -16,12 +16,6 @@ python -m http.server 8000
 # http://localhost:8000 접속
 ```
 
-## 배포 (GitHub Pages)
-1. GitHub에 새 저장소 생성 (예: `engineer-coach-agent`)
-2. 이 폴더 내용을 푸시
-3. 저장소 Settings → Pages → Source를 `main` 브랜치 `/ (root)`로 설정
-4. 몇 분 후 `https://<username>.github.io/<repo>/` 로 접속 가능
-
 ## 사용 방법
 1. 처음 접속 시 뜨는 설정 모달에서 Provider(Anthropic/OpenAI) 선택 후 본인 API 키 입력
 2. 좌측에서 모드(알고리즘/개념/리뷰) 선택
